@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-fr="Statistiques — Antoine HOUNDONOUGBO" data-en="Statistics — Antoine HOUNDONOUGBO">Statistiques — Antoine HOUNDONOUGBO</title>
+<meta name="description" content="Ma démarche d'analyse de données (nettoyage, scores, modélisation, validation) et dix réalisations visuelles anonymisées, sans identification des projets.">
+<meta property="og:title" content="Statistiques — Antoine HOUNDONOUGBO">
+<meta property="og:description" content="Ma démarche d'analyse de données (nettoyage, scores, modélisation, validation) et dix réalisations visuelles anonymisées, sans identification des projets.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://antoine-houndonougbo.github.io/">
+<meta property="og:image" content="https://antoine-houndonougbo.github.io/assets/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1A365D">
+<link rel="canonical" href="https://antoine-houndonougbo.github.io/statistiques.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#contenu"><span lang="fr">Aller au contenu principal</span><span lang="en">Skip to main content</span></a>
+<header class="site">
+<div class="wrap nav">
+  <a class="brand" href="index.html">A. HOUNDONOUGBO <span>· PhD</span></a>
+  <nav aria-label="Navigation principale">
+    <ul><li><a href="index.html"><span lang="fr">Accueil</span><span lang="en">Home</span></a></li><li><a href="a-propos.html"><span lang="fr">À propos</span><span lang="en">About</span></a></li><li><a href="competences.html"><span lang="fr">Compétences</span><span lang="en">Skills</span></a></li><li><a href="experience.html"><span lang="fr">Expérience</span><span lang="en">Experience</span></a></li><li><a href="realisations.html"><span lang="fr">Réalisations</span><span lang="en">Results</span></a></li><li><a href="statistiques.html" aria-current="page"><span lang="fr">Statistiques</span><span lang="en">Statistics</span></a></li><li><a href="galerie.html"><span lang="fr">Galerie</span><span lang="en">Gallery</span></a></li><li><a href="en-action.html"><span lang="fr">En action</span><span lang="en">In action</span></a></li><li><a href="publications.html"><span lang="fr">Publications</span><span lang="en">Publications</span></a></li><li><a href="certifications.html"><span lang="fr">Certifications</span><span lang="en">Certifications</span></a></li><li><a href="contact.html"><span lang="fr">Contact</span><span lang="en">Contact</span></a></li>
+      <li><button class="langbtn" id="langBtn" type="button" aria-label="Changer de langue / Switch language">EN</button></li>
+    </ul>
+  </nav>
+</div>
+</header>
+<main id="contenu">
+
+<div class="wrap pagehead"><h1><span lang="fr">Statistiques &amp; analyses</span><span lang="en">Statistics &amp; analysis</span></h1><p class="rule"></p></div>
+<section aria-labelledby="st-t">
+<div class="wrap">
+  <p class="lead"><span lang="fr">De la donnée brute à la figure prête à publier : voici comment je structure mon travail d'analyse, étape par étape.</span><span lang="en">From raw data to publication-ready figures: how I structure my analysis work, step by step.</span></p>
+  <div class="chips-inline">
+    <span class="badge">R · tidyverse · ggplot2</span><span class="badge">gtsummary</span><span class="badge">pROC</span><span class="badge">Python · pandas</span><span class="badge">REDCap · Epi Info</span><span class="badge">QGIS</span><span class="badge">STROBE</span>
+  </div>
+  <div class="m-grid">
+<div class="m-card"><div class="m-ico">🧹</div><h4><span lang="fr">Nettoyage &amp; qualité des données</span><span lang="en">Data cleaning &amp; quality</span></h4><p><span lang="fr">Contrôles de cohérence, gestion des valeurs manquantes et des doublons, anonymisation, dictionnaires de variables et traçabilité complète (REDCap, Epi Info).</span><span lang="en">Consistency checks, handling of missing values and duplicates, anonymisation, variable dictionaries and full traceability (REDCap, Epi Info).</span></p></div>
+<div class="m-card"><div class="m-ico">📏</div><h4><span lang="fr">Scores &amp; fiabilité</span><span lang="en">Scores &amp; reliability</span></h4><p><span lang="fr">Construction de scores composites (connaissances, attitudes, pratiques), cohérence interne (alpha de Cronbach), seuillage en niveaux interprétables.</span><span lang="en">Building composite scores (knowledge, attitudes, practices), internal consistency (Cronbach's alpha), cut-offs into interpretable levels.</span></p></div>
+<div class="m-card"><div class="m-ico">🔍</div><h4><span lang="fr">Descriptif &amp; bivarié</span><span lang="en">Descriptive &amp; bivariate</span></h4><p><span lang="fr">Prévalences avec IC exacts, tableaux de contingence, tests du χ² et non paramétriques, comparaisons de groupes et lecture des effectifs.</span><span lang="en">Prevalences with exact CIs, contingency tables, χ² and non-parametric tests, group comparisons and sample-size reading.</span></p></div>
+<div class="m-card"><div class="m-ico">📈</div><h4><span lang="fr">Modélisation</span><span lang="en">Modelling</span></h4><p><span lang="fr">Régressions logistique et linéaire multiple, odds ratios ajustés avec IC95 %, sélection et vérification des variables, contrôle des hypothèses.</span><span lang="en">Logistic and multiple linear regression, adjusted odds ratios with 95% CI, variable selection and checking, assumption control.</span></p></div>
+<div class="m-card"><div class="m-ico">🎯</div><h4><span lang="fr">Performance &amp; validation</span><span lang="en">Performance &amp; validation</span></h4><p><span lang="fr">Courbes ROC et AUC, seuils optimaux (Youden), calibrage (Hosmer-Lemeshow), matrices de confusion et validation de la robustesse.</span><span lang="en">ROC curves and AUC, optimal cut-offs (Youden), calibration (Hosmer-Lemeshow), confusion matrices and robustness checks.</span></p></div>
+<div class="m-card"><div class="m-ico">🗺</div><h4><span lang="fr">Temps &amp; espace</span><span lang="en">Time &amp; space</span></h4><p><span lang="fr">Séries annuelles et saisonnalité, cartes choroplèthes sous QGIS, lecture spatio-temporelle des dynamiques épidémiologiques.</span><span lang="en">Annual series and seasonality, choropleth maps in QGIS, spatio-temporal reading of epidemiological dynamics.</span></p></div>
+  </div>
+</div>
+</section>
+<section class="alt" aria-labelledby="ph-t">
+<div class="wrap">
+  <h2 id="ph-t"><span lang="fr">Aperçu de réalisations</span><span lang="en">Selected deliverables</span></h2>
+  <p class="rule"></p>
+  <p class="lead"><span lang="fr">Dix figures, sans commentaire : elles parlent d'elles-mêmes. Les projets sources ne sont pas identifiés ; les versions nettes et leurs interprétations restent confidentielles.</span><span lang="en">Ten figures, no commentary: they speak for themselves. Source projects are not identified; the sharp versions and their interpretations remain confidential.</span></p>
+  <div class="ph-grid">
+<div class="ph-card"><img src="assets/stats/stats-01-serie-annuelle.png" alt="Figure statistique anonymisée : série annuelle" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-02-saisonnalite.png" alt="Figure statistique anonymisée : saisonnalité" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-03-annees-actives.png" alt="Figure statistique anonymisée : années actives" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-04-carte-choroplethe.png" alt="Figure statistique anonymisée : cartographie" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-05-serotypes-annuels.png" alt="Figure statistique anonymisée : sérotypes" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-06-correlations-cap.png" alt="Figure statistique anonymisée : corrélations" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-07-courbe-roc.png" alt="Figure statistique anonymisée : courbe ROC" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-08-radar-cap.png" alt="Figure statistique anonymisée : radar" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-09-correlogramme.png" alt="Figure statistique anonymisée : correlogramme" loading="lazy"></div>
+<div class="ph-card"><img src="assets/stats/stats-10-matrice-nuages.png" alt="Figure statistique anonymisée : matrice de nuages" loading="lazy"></div>
+  </div>
+  <div class="confidential">🔒 <span lang="fr">Ces figures sont volontairement présentées sans titre ni légende, et certaines zones sont légèrement floutées : aucun projet, site ni population ne peut être identifié. Les commentaires méthodologiques et les versions d'origine sont réservés (accès sur demande ou via le coffre à code de la page Réalisations).</span><span lang="en">These figures are deliberately shown without titles or captions, and some areas are slightly blurred: no project, site or population can be identified. Methodological commentary and original versions are restricted (on request, or via the code vault on the Results page).</span></div>
+</div>
+</section>
+
+</main>
+<footer class="site">
+<div class="wrap frow">
+  <div>© <span id="year">2026</span> Antoine HOUNDONOUGBO — <span lang="fr">Docteur (PhD) en Physiologie Cellulaire &amp; Biologie Moléculaire · Bénin 🇧🇯</span><span lang="en">PhD in Cellular Physiology &amp; Molecular Biology · Benin 🇧🇯</span></div>
+  <div><a href="mailto:houndonougboantoine@gmail.com">houndonougboantoine@gmail.com</a> · <a href="https://credly.com/users/antoine-houndonougbo">Credly</a> · <a href="https://orcid.org/0009-0008-2051-8217">ORCID</a></div>
+</div>
+</footer>
+<script src="assets/vault-data.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
